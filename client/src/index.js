@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 
+import './styles.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home';
 import Signin from './components/Auth/Signin'
